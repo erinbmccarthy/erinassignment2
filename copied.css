@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0; /*gets rid of browser settings*/
+    outline: 1pt solid red;
+}
+
+
+/* SMARTPHONES (portrait) ----------------- */
+@media only screen and (max-width : 320px) {
+    /*styles*/
+}
+
+/* iPADS (portrait) ------------------------ */
+@media only screen and (min-device-width : 767px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /*styles*/
+}
+    
+/* iPad3 (portrait) -----------------------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /*styles*/
+}
+
+/* DESKTOPS & LAPTOPS -------------------*/
+@media only screen and (min-width: 768px) {
+    /*styles*/
+}
+
+@media only screen and (min-width: 1224px) {
+    /*styles*/
+}
+
+/* LARGER SCREENS -----------------------*/
+
+@media only screen and (min-width: 1824px) {
+    /*styles*/
+}
+
+
+
+/*OLD CSS BEGIN/*
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+   outline: 1pt solid red;
+}
+
+html, body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    height: 100%;
+    padding: 0;
+}
+
+/*BLACK BAR----------------------------------------------------------------
+
+.left-wrapper {
+    float: left;
+    margin: 0;
+    height: 100%;
+    width: 20%;
+    background: black;
+    position: fixed;
+}
+
+/*LOGO-------------------------------------------------------------------- 
+
+.logo {
+    height: 75px;
+    width: 85%;
+    margin-left: 10%;
+    float: inherit;
+    margin-top: 20%;
+    background-color: blue
+}
+
+NAVIGATION MENU ---------------------------------------------------------
+
+nav {
+    margin-top: 50%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15%;
+    float: left;
+    text-decoration: none;
+   background: blue;
+    list-style-position: inside;
+}  
+
+nav ul li {
+    margin-left:0;
+    list-style-position: inside;
+    text-decoration: none;
+    list-style-type: none;   
+}
+
+ ul .anav {
+    color: white;
+    font-family: "priori-sans", "sans-serif";
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-style: normal;
+}
+
+ul .bnav {
+    display: none;
+    color: white;
+    font-family: "priori-sans", "sans-serif";
+    text-decoration: none;
+    line-height:1.3em;
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+ul .anav .bnav {
+    text-decoration: none;
+}
+
+.anav:hover, .anav:hover .bnav {
+    display: block;
+    transition: 1s;
+}
+
+li .anav:hover {
+    background-color: tomato;
+}
+
+li .bnav:hover {
+    background-color: tomato;
+}
+
+MAIN CONTAINER*----------------------------------------------------------
+
+.main {
+    margin-top: 0;
+    margin-left: 20%;
+    width: 80%;
+}
+.header {
+    padding: 30px;
+    height: 50%;
+    padding-top: 54px;
+    background-color: pink;
+    margin-right:0;
+}
+
+
+LETTER HOVER EFFECT
+BASE STYLES FOR ALL CHARACTER----------------------------------------------
+
+.char {
+    color: black;
+    cursor: cell;
+    font-family: "priori-sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 85px;
+    transition-delay: 1s;
+    transition: color 1.4s;
+}
+
+/* Hover colors----------------------------------------------------------- 
+
+span.color1:hover {
+    color: #F7789E;
+    transition: color 0s;
+}
+
+span.color2:hover {
+    color: tomato;;
+    transition: color 0s;
+}
+
+span.color3:hover {
+    color: #69CAF8;
+    transition: color 0s;
+}
+
+span.color4:hover {
+    color: #F8D54B;
+    transition: color 0s;
+}
+
+TYPOGRAPHY*------------------------------------------------------------
+
+.sitename {
+    height: 5%;
+    width:85%;
+    background-color: blue;
+    font-family: "priori-sans", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 4px;
+    margin-top: 10%;
+    margin-left: 15%;
+    color:white;
+    float: left;
+    padding: 10px;
+}
+
+.tagline {
+    height: 5%;
+    width:85%;
+    background-color: blue;
+    font-family: "priori-sans", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 15%;
+    color:white;
+    float: left;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "priori-sans", sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.copyright {
+    background-color: blue;
+    height: 10%;
+    width: 85%;
+    margin-top: 230%;
+    margin-left: 15%;
+    margin-bottom: 0%;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#copyright {
+    color: white;
+    font-family: "priori-sans", "sans-serif";
+    font-style: normal;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+
+BODY CONTENT
+
+.square {
+    height: 1000px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: grey;
+
+}
+
+*/ /*OLD CSS END /*
